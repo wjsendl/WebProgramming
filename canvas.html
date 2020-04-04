@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>&lt;canvas&gt;</title>
+    
+    </head>
+    
+    <body>
+        <h1>&lt;canvas&gt; 사용예 (과제 #03-02)</h1>
+    
+        <canvas id="myCanvas" width="200" height="100">
+            <script>
+                var c = document.getElementById("myCanvas");
+                var ctx = c.getContext("2d");
+                ctx.moveTo(0, 0);
+                ctx.lineTo(200, 100);
+                ctx.stroke();
+                
+                var c = document.getElementById("myCanvas");
+                var ctx = c.getContext("2d");
+                ctx.moveTo(200, 0);
+                ctx.lineTo(0, 100);
+                ctx.stroke();
+            
+            </script>
+    
+        </canvas>
+        <p>201912958 전두이</p>
+    
+    
+    </body>
+
+
+</html>
